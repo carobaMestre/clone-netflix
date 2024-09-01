@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../src/fonts/NetflixSans-Regular.otf)
+  }
+body{
+    background-color: #141414;
+}
+
+nav img{
+    width: 111px;
+    height: 30px;
+    padding-left: 60px;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+main{
+    font-family: Netflix Sans;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    padding-bottom: 25px;
+}
+
+main .imagens_perfil li img{
+   width: 110px;
+}
+
+.imagens_perfil {
+    list-style-type: none;
+    display: inline-flex; 
+}
+
+
+main .imagens_perfil li .adicionar_perfil{
+    width: 80px;
+    padding-left: 20px;
+    padding-top: 12px;
+
+}
+
+main .imagens_perfil li{
+    padding-left: 20px;
+    
+}
